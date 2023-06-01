@@ -1,0 +1,63 @@
+@media (max-width: 438px) {
+  /* custom additions to bootstrap classes */
+  .col-padding {
+    padding: 3px !important;
+  }
+  /* custom additions to bootstrap classes */
+  .card-wrapper {
+    /* height: 100px; */
+  }
+
+  .corousel-text .h5 {
+    text-align: center;
+    padding: 3px;
+  }
+
+  .service-card-wrapper .h6 {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .shop-left {
+    margin-top: 10px;
+  }
+  .shop-card {
+    margin-top: 10px;
+    padding: 10px;
+  }
+  .shop-card .description {
+    display: none;
+  }
+  .shop-card .btn {
+    display: none;
+  }
+
+  /* checkout page */
+  .user-info-wrapper {
+    margin-bottom: 10px;
+  }
+
+  .table {
+    width: 300px;
+    margin-right: 0;
+  }
+
+  .order-totals .h6,
+  .order-title .h6,
+  .order-title p {
+    font-size: 14px;
+  }
+  /* checkout page */
+
+  /* Cart */
+  .big-summary-sect {
+    margin-top: 20px;
+  }
+
+  .cart-item h3,
+  .cart-item h4 {
+    font-size: 14px;
+  }
+  /* Cart */
+}

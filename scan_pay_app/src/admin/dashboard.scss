@@ -1,0 +1,100 @@
+
+.dash-wrapper {
+  display: flex;
+  width: 100%;
+}
+
+.sidebar {
+  height: 100hv !important;
+}
+
+.dash-main {
+  width: 100%;
+}
+
+
+.side-logo{
+  height: 150px;
+  width: 150px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.side-logo img{
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  object-fit: cover;
+}
+
+.card-body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-title{
+  margin: 5px 0;
+}
+
+.card-subtitle{
+  margin: 3px 0;
+}
+
+.dash-card-icon{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: aliceblue;
+  color: red;
+  font-size: 18px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// Product List Table
+.productListItem {
+  display: flex;
+  align-items: center;
+}
+
+.productListImg {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.productListEdit {
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+  background-color: #3bb077;
+  color: white;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.productListDelete {
+  color: red;
+  cursor: pointer;
+}
+
+.productQRCodeList{
+display: flex;
+  align-items: center;
+  // height: 100px;
+
+}
+
+.productListQrCode{
+  width: 100px;
+  height: 100px;
+  // border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+// Product List Table

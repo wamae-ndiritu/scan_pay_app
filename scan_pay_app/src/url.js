@@ -1,1 +1,1 @@
-export const URL = "https://scan-pay-app.vercel.app/";
+export const URL = "https://scan-pay-server.onrender.com/";
